@@ -1,0 +1,49 @@
+
+
+/* Overall layout */
+.mainContainer {
+  color:#07fdb3;
+   background-color:rgba(0, 0, 0, 0.362);
+   width:80%;
+}
+.mainBoxWrapper {
+  margin-top: 20px;
+  color:white;
+  /* background-color: aqua; */
+}
+
+
+/* image */
+.imageDiv {
+  display:flex;
+  align-content:center;
+  justify-content: center;
+
+}
+
+/* Message layout */
+.messageContainer {
+  width: 100%;
+  text-align: center;
+}
+.messageInfo {
+  color:white
+}
+.buttonContainer {
+  margin-top: 25px;
+  color:#07fd1c;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.label {
+  cursor: pointer;
+}
+.Spacer {
+  padding-left: 30px;
+}
+.SpacerDis {
+  padding-left: 30px;
+  color:rgb(110, 109, 109)
+}
